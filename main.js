@@ -27,6 +27,24 @@ document.addEventListener('DOMContentLoaded', ()=> {
             })
         }
 
+        const createUaData = (newData) => {
+            resultData["ua"] = {};
+            
+            console.log('Тут будет украинский перевод')
+        }
+
+        const createEnData = (newData) => {
+            resultData["en"] = {};
+            
+            console.log('Тут будет английский перевод')
+        }
+
+        const createEspData = (newData) => {
+            resultData["Esp"] = {};
+            
+            console.log('Тут будет английский перевод')
+        }
+
         const createData = (e) => {
             const newData = [];
 
